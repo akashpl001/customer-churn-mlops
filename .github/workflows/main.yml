@@ -30,5 +30,4 @@ jobs:
         run: pytest -q
 
       - name: Build Docker image
-        run: docker build -t customer-churn-api . 
-
+        run: docker build -t customer-churn-api .
