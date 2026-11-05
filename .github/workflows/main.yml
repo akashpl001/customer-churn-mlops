@@ -3,9 +3,9 @@ name: Customer Churn ML - CI
 
 on:
   push:
-    branches: [main]
+    branches: [main1]
   pull_request:
-    branches: [main]
+    branches: [main1]
 
 jobs:
   test-and-build:
